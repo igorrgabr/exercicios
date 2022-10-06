@@ -4,9 +4,9 @@ class Program {
   public static void Main() {
     Console.WriteLine("Digite o intervalo de tempo no formato “HH:MM:SS”:");
     string[] time = Console.ReadLine().Split(':');
-    long h = int.Parse(time[0]);
-    long m = int.Parse(time[1]);
-    long sec = int.Parse(time[2]);
+    long h = long.Parse(time[0]);
+    long m = long.Parse(time[1]);
+    long sec = long.Parse(time[2]);
     long hToSec = h * 3600;
     long mToSec = m * 60;
     long total = (hToSec + mToSec + sec) * 300000;

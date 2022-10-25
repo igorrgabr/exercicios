@@ -1,4 +1,4 @@
-run = "mcs -out:Main.exe 'lista05/uri2473.cs' ; mono Main.exe"
+run = "mcs -out:Main.exe 'lista06/uri2188.cs' ; mono Main.exe"
 
 hidden = ["bin", "obj"]
 

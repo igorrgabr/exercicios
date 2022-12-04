@@ -1,0 +1,9 @@
+a)
+Stack do Main: @x, @y
+Stack do Construtor: b, h, c
+Heap do Construtor: 10, 20, "Azul"
+
+b)
+Stack do Main: @y
+Stack do GetBHC: b, h, c
+Heap do GetBHC: bx, rx, cx

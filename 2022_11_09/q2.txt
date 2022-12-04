@@ -1,0 +1,3 @@
+a)
+Stack do Main: @a, @b, @c
+Heap do Main: "a", 20, "b", 45, "c", 45
